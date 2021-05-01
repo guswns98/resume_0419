@@ -2,94 +2,109 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
-    font-family: 'Montserrat';
+  font-family: 'Montserrat';
 }
 h1,h2,body{
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+.name-text{
+  text-align: end;
+}
+#name{
+  font-size: 10px;
 }
 footer{
-    text-align: center;
+  text-align: center;
   background-color: #1e1e1e;
   padding: 20px;
   font-size: 12px;
   color: #919191;
 }
 .mainbox{
-    width: 610px;
-    padding: 30px;
-    margin: 30px;
-    margin-right: auto;  
-    margin-left: auto;   
-    border: 1px solid #ebebeb;
-    box-shadow:0 1px 20px 0 rgba(0,0,0,0,0.1) ;
+  width: 610px;
+  padding: 30px;
+  margin: 30px;
+  margin-right: auto;  
+  margin-left: auto;   
+  border: 1px solid #ebebeb;
+  box-shadow:0 1px 20px 0 rgba(0,0,0,0,0.1) ;
 }
 
 .name-text{
-    font-size:16px;
-    color: #7c7c7c;;
+  font-size:16px;
+  color: #7c7c7c;;
 }
-h1{
-    font-weight: bold;
-    font-size:36px;
-    font-style:italic;
+.name1{
+  font-size: 30px;
+}
+.name2{
+  font-size: 10px;
+}
+dl{
+  font-size:10px;
+  font-style: normal;
+  text-align: start;
 }
 h2{
-    font-size: 20px;
-    color:#282828;
-    font-weight: lighter;
-    margin-bottom: 16px;
-    padding-bottom: 5px;
-    border-bottom: 1px solid #ebebeb;
+  font-size: 20px;
+  color:#282828;
+  font-weight: lighter;z
+  margin-bottom: 16px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ebebeb;
 
+}
+dl{
+  padding-left: 8%;
 }
 
 .about-me-text{
-    font: size 10px;
-    line-height: 10px;
+  font-size:12px;
+  line-height: 20px;
 }
 section{
-    margin-bottom: 24px;
-    text-align: left;
+  margin-bottom: 24px;
+  text-align: left;
 }
 .title-text{
-    font-size: 11px;
-    font-weight: bold;
-    color:#282828;
-    float: left;
+  font-size: 11px;
+  font-weight: bold;
+  color:#282828;
+  float: left;
 }
 .year-text{
-    font-size: 11px;
-    font-weight: bold;
-    color:#282828;
-    float: right;
+  font-size: 11px;
+  font-weight: bold;
+  color:#282828;
+  float: right;
 }
 .float-wrap{
-    overflow: hidden;
+  overflow: hidden;
 }
 .desc-text{
-    font-size: 10px;
+  font-size: 10px;
 
-}ㄴ
+}
 .desc-subtext{
-    font-size: 10px;
-    color: #282828;
-    padding-left: 16px;
+  font-size: 5px;
+  color: #282828;
+  padding-left: 16px;
 
 }
 .title-box{
-    text-align: left;
+  text-align: left;
 }
 .profile-img{
-    float:left;
-    display: inline;
+  float:left;
+  display: inline;
 
 }
 .sns-wrap{
-    text-align: right;
+  text-align: right;
 }
 .sns-img{
-    width: 12px;
-    height: 12px;
+  width: 12px;
+  height: 12px;
 
 }
